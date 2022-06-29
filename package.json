@@ -8,9 +8,11 @@
     "serverstart": "DEBUG=express_mini_authen:* npm run devstart"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "ejs": "~2.6.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
     "express": "~4.16.1",
     "express-session": "^1.17.3",
     "http-errors": "~1.6.3",
@@ -22,7 +24,7 @@
   "description": "",
   "main": "app.js",
   "devDependencies": {
-    "nodemon": "^2.0.18"
+    "nodemon": "^1.3.3"
   },
   "repository": {
     "type": "git",
